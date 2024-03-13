@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon May  2 15:08:30 2022
+# Process ID: 6168
+# Current directory: D:/Logic2022/Lab/Lab9/TA_pynq_project-20220502T065109Z-001/TA_pynq_project/pynq_base1/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9720 D:\Logic2022\Lab\Lab9\TA_pynq_project-20220502T065109Z-001\TA_pynq_project\pynq_base1\project_1\project_1.xpr
+# Log file: D:/Logic2022/Lab/Lab9/TA_pynq_project-20220502T065109Z-001/TA_pynq_project/pynq_base1/project_1/vivado.log
+# Journal file: D:/Logic2022/Lab/Lab9/TA_pynq_project-20220502T065109Z-001/TA_pynq_project/pynq_base1/project_1\vivado.jou
+# Running On: WilliamLee, OS: Windows, CPU Frequency: 3793 MHz, CPU Physical cores: 24, Host memory: 34262 MB
+#-----------------------------------------------------------
+start_gui

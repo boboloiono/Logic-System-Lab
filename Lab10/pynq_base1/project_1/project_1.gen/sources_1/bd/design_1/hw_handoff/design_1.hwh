@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Apr 20 19:22:39 2022" VIVADOVERSION="2021.2">
+
+  <SYSTEMINFO ARCH="zynq" BOARD="tul.com.tw:pynq-z2:part0:1.0" DEVICE="7z020" NAME="design_1" PACKAGE="clg400" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="sysclk" SIGIS="undef" SIGNAME="External_Ports_sysclk">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="top_0" PORT="sysclk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="1" NAME="sw" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_sw">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="top_0" PORT="sw"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="3" NAME="led" RIGHT="0" SIGIS="undef" SIGNAME="top_0_led">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="top_0" PORT="led"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="3" NAME="btn" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_btn">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="top_0" PORT="btn"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="led4_b" SIGIS="undef" SIGNAME="top_0_led4_b">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="top_0" PORT="led4_b"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="led4_g" SIGIS="undef" SIGNAME="top_0_led4_g">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="top_0" PORT="led4_g"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="led4_r" SIGIS="undef" SIGNAME="top_0_led4_r">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="top_0" PORT="led4_r"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="led5_b" SIGIS="undef" SIGNAME="top_0_led5_b">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="top_0" PORT="led5_b"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="led5_g" SIGIS="undef" SIGNAME="top_0_led5_g">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="top_0" PORT="led5_g"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="led5_r" SIGIS="undef" SIGNAME="top_0_led5_r">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="top_0" PORT="led5_r"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="7" NAME="ar" RIGHT="0" SIGIS="undef" SIGNAME="top_0_ar">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="top_0" PORT="ar"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/top_0" HWVERSION="1.0" INSTANCE="top_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="top" VLNV="xilinx.com:module_ref:top:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_top_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="sysclk" SIGIS="undef" SIGNAME="External_Ports_sysclk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="sysclk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="sw" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_sw">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="sw"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="btn" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_btn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="btn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="led" RIGHT="0" SIGIS="undef" SIGNAME="top_0_led">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="led"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="led4_b" SIGIS="undef" SIGNAME="top_0_led4_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="led4_b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="led4_g" SIGIS="undef" SIGNAME="top_0_led4_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="led4_g"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="led4_r" SIGIS="undef" SIGNAME="top_0_led4_r">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="led4_r"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="led5_b" SIGIS="undef" SIGNAME="top_0_led5_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="led5_b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="led5_g" SIGIS="undef" SIGNAME="top_0_led5_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="led5_g"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="led5_r" SIGIS="undef" SIGNAME="top_0_led5_r">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="led5_r"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="ar" RIGHT="0" SIGIS="undef" SIGNAME="top_0_ar">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ar"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

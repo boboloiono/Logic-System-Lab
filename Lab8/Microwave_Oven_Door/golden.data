@@ -1,0 +1,44 @@
+// Reset
+0 0
+// No Input
+0 0
+// Press One Second
+1 0
+// Press One Minutes
+61 0
+// Press Start with Door Open
+61 0
+// Press Start with Door Close
+61 0
+// Press Ten Seconds
+60 0
+// Press Start
+59 0
+// Press Ten Minutes with Door Open
+58 0
+// Press One Minutes with Door Open
+58 0
+// Press Ten Seconds with Door Open
+58 0
+// Press Pause with Door Open
+0 0
+// Press One Second
+1 0
+// Press One Second
+2 0
+// Press One Second
+3 0
+// Press Start
+3 0
+// No Input with Door Close
+2 0
+// No Input with Door Open
+1 0
+// Press Start with Door Open
+1 0
+// Press Start with Door Close
+1 0
+// No Input with Door Open
+0 1
+// No Input
+0 0

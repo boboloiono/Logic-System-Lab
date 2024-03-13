@@ -1,0 +1,220 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xD1E2A3933D548AEA",
+      "device": "xc7z020clg400-1",
+      "gen_directory": "../../../../lab8_7segment.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2021.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "top_0": ""
+    },
+    "ports": {
+      "sysclk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_1_sysclk",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "125000000"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "sw": {
+        "direction": "I",
+        "left": "1",
+        "right": "0"
+      },
+      "btn": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "led": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "led4_b": {
+        "direction": "O"
+      },
+      "led4_g": {
+        "direction": "O"
+      },
+      "led4_r": {
+        "direction": "O"
+      },
+      "led5_b": {
+        "direction": "O"
+      },
+      "led5_g": {
+        "direction": "O"
+      },
+      "led5_r": {
+        "direction": "O"
+      },
+      "ar": {
+        "direction": "O",
+        "left": "7",
+        "right": "0"
+      }
+    },
+    "components": {
+      "top_0": {
+        "vlnv": "xilinx.com:module_ref:top:1.0",
+        "xci_name": "design_1_top_0_0",
+        "xci_path": "ip\\design_1_top_0_0_2\\design_1_top_0_0.xci",
+        "inst_hier_path": "top_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "top",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "sysclk": {
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "125000000",
+                "value_src": "user_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "default_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "design_1_sysclk",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "sw": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "btn": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "led": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "led4_b": {
+            "direction": "O"
+          },
+          "led4_g": {
+            "direction": "O"
+          },
+          "led4_r": {
+            "direction": "O"
+          },
+          "led5_b": {
+            "direction": "O"
+          },
+          "led5_g": {
+            "direction": "O"
+          },
+          "led5_r": {
+            "direction": "O"
+          },
+          "ar": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "btn_1": {
+        "ports": [
+          "btn",
+          "top_0/btn"
+        ]
+      },
+      "sw_1": {
+        "ports": [
+          "sw",
+          "top_0/sw"
+        ]
+      },
+      "sysclk_1": {
+        "ports": [
+          "sysclk",
+          "top_0/sysclk"
+        ]
+      },
+      "top_0_ar": {
+        "ports": [
+          "top_0/ar",
+          "ar"
+        ]
+      },
+      "top_0_led": {
+        "ports": [
+          "top_0/led",
+          "led"
+        ]
+      },
+      "top_0_led4_b": {
+        "ports": [
+          "top_0/led4_b",
+          "led4_b"
+        ]
+      },
+      "top_0_led4_g": {
+        "ports": [
+          "top_0/led4_g",
+          "led4_g"
+        ]
+      },
+      "top_0_led4_r": {
+        "ports": [
+          "top_0/led4_r",
+          "led4_r"
+        ]
+      },
+      "top_0_led5_b": {
+        "ports": [
+          "top_0/led5_b",
+          "led5_b"
+        ]
+      },
+      "top_0_led5_g": {
+        "ports": [
+          "top_0/led5_g",
+          "led5_g"
+        ]
+      },
+      "top_0_led5_r": {
+        "ports": [
+          "top_0/led5_r",
+          "led5_r"
+        ]
+      }
+    }
+  }
+}

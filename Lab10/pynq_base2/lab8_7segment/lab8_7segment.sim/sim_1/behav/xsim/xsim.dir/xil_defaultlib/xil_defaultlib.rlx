@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+C:/Users/KevinWu/Desktop/pynq_project/pynq_base2/lab8_7segment/lab8_7segment.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v,1650467482,verilog,,,,design_1_wrapper,,,,,,,,
+C:/Users/KevinWu/Desktop/pynq_project/pynq_base2/lab8_7segment/lab8_7segment.ip_user_files/bd/design_1/ip/design_1_top_0_0_2/sim/design_1_top_0_0.v,1650467482,verilog,,C:/Users/KevinWu/Desktop/pynq_project/pynq_base2/lab8_7segment/lab8_7segment.ip_user_files/bd/design_1/sim/design_1.v,,design_1_top_0_0,,,,,,,,
+C:/Users/KevinWu/Desktop/pynq_project/pynq_base2/lab8_7segment/lab8_7segment.ip_user_files/bd/design_1/sim/design_1.v,1650467482,verilog,,C:/Users/KevinWu/Desktop/pynq_project/pynq_base2/lab8_7segment/lab8_7segment.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v,,design_1,,,,,,,,
+C:/Users/KevinWu/Desktop/pynq_project/pynq_base2/lab8_7segment/lab8_7segment.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+C:/Users/KevinWu/Desktop/pynq_project/pynq_base2/lab8_7segment/lab8_7segment.srcs/sources_1/imports/new/top.v,1650467406,verilog,,C:/Users/KevinWu/Desktop/pynq_project/pynq_base2/lab8_7segment/lab8_7segment.ip_user_files/bd/design_1/ip/design_1_top_0_0_2/sim/design_1_top_0_0.v,,top,,,,,,,,
+C:/Users/KevinWu/Desktop/pynq_project/pynq_base2/lab8_7segment/lab8_7segment.srcs/sources_1/new/seg7.v,1650467474,verilog,,C:/Users/KevinWu/Desktop/pynq_project/pynq_base2/lab8_7segment/lab8_7segment.srcs/sources_1/imports/new/top.v,,seg7,,,,,,,,

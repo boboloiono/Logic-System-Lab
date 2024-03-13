@@ -1,0 +1,44 @@
+// No Input
+0 0 0 0 0 0 1
+// Press One Second
+0 0 0 1 0 0 0
+// Press One Minutes
+0 1 0 0 0 0 0
+// Press Start with Door Open
+0 0 0 0 0 1 0
+// Press Start with Door Close
+0 0 0 0 0 1 1
+// Press Ten Seconds
+0 0 1 0 0 0 1
+// Press Start
+0 0 0 0 0 1 1
+// Press Ten Minutes with Door Open
+1 0 0 0 0 0 0
+// Press One Minutes with Door Open
+0 1 0 0 0 0 0
+// Press Ten Seconds with Door Open
+0 0 1 0 0 0 0
+// Press Pause with Door Open
+0 0 0 0 1 0 0
+// Press One Second
+0 0 0 1 0 0 0
+// Press One Second
+0 0 0 1 0 0 0
+// Press One Second
+0 0 0 1 0 0 0
+// Press Start
+0 0 0 0 0 1 1
+// No Input with Door Close
+0 0 0 0 0 0 1
+// No Input with Door Open
+0 0 0 0 0 0 0
+// Press Start with Door Open
+0 0 0 0 0 1 0
+// Press Start with Door Close
+0 0 0 0 0 1 1
+// No Input with Door Open
+0 0 0 0 0 0 0
+// No Input
+0 0 0 0 0 0
+// No Input
+0 0 0 0 0 0

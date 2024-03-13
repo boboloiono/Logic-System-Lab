@@ -1,0 +1,66 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
+| Date         : Sat Apr 23 14:27:53 2022
+| Host         : DESKTOP-QO1RQK3 running 64-bit major release  (build 9200)
+| Command      : report_drc -file design_1_wrapper_drc_opted.rpt -pb design_1_wrapper_drc_opted.pb -rpx design_1_wrapper_drc_opted.rpx
+| Design       : design_1_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 5
++-------------+----------+-------------------------------------------------------------+------------+
+| Rule        | Severity | Description                                                 | Violations |
++-------------+----------+-------------------------------------------------------------+------------+
+| PLHOLDVIO-2 | Warning  | Non-Optimal connections which could lead to hold violations | 4          |
+| ZPS7-1      | Warning  | PS7 block required                                          | 1          |
++-------------+----------+-------------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PLHOLDVIO-2#1 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT design_1_i/top_0/inst/debounce_1//i_ is driving clock pin of 2 cells. This could lead to large hold time violations. Involved cells are:
+design_1_i/top_0/inst/led_reg[3], design_1_i/top_0/inst/sel_reg[3]
+Related violations: <none>
+
+PLHOLDVIO-2#2 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT design_1_i/top_0/inst/debounce_2//i_ is driving clock pin of 2 cells. This could lead to large hold time violations. Involved cells are:
+design_1_i/top_0/inst/led_reg[2], design_1_i/top_0/inst/sel_reg[2]
+Related violations: <none>
+
+PLHOLDVIO-2#3 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT design_1_i/top_0/inst/debounce_3//i_ is driving clock pin of 2 cells. This could lead to large hold time violations. Involved cells are:
+design_1_i/top_0/inst/led_reg[1], design_1_i/top_0/inst/sel_reg[1]
+Related violations: <none>
+
+PLHOLDVIO-2#4 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT design_1_i/top_0/inst/debounce_4//i_ is driving clock pin of 2 cells. This could lead to large hold time violations. Involved cells are:
+design_1_i/top_0/inst/led_reg[0], design_1_i/top_0/inst/sel_reg[0]
+Related violations: <none>
+
+ZPS7-1#1 Warning
+PS7 block required  
+The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+Related violations: <none>
+
+

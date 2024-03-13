@@ -1,0 +1,76 @@
+// No Input
+0 0 0 0 0 0
+// Press Ten Minutes
+1 0 0 0 0 0
+// Press Ten Seconds
+0 0 1 0 0 0
+// Press One Second
+0 0 0 1 0 0
+// Press One Minutes
+0 1 0 0 0 0
+// Press Pause
+0 0 0 0 1 0
+// Press Start
+0 0 0 0 0 1
+// Press Ten Seconds
+0 0 1 0 0 0
+// Press Start
+0 0 0 0 0 1
+// Press Ten Minutes
+1 0 0 0 0 0
+// Press One Minutes
+0 1 0 0 0 0
+// Press Ten Seconds
+0 0 1 0 0 0
+// Press One Second
+0 0 0 1 0 0
+// Press Pause
+0 0 0 0 1 0
+// Press Start
+0 0 0 0 0 1
+// Press Ten Minutes
+1 0 0 0 0 0
+// Press One Minutes
+0 1 0 0 0 0
+// Press Ten Seconds
+0 0 1 0 0 0
+// Press One Second
+0 0 0 1 0 0
+// No Input
+0 0 0 0 0 0
+// No Input
+0 0 0 0 0 0
+// Focus One Second
+1 1 1 1 0 0
+// Focus Ten Seconds
+1 1 1 0 0 0
+// Focus One Minutes
+1 1 0 0 0 0
+// Focus Start
+1 1 1 1 0 1
+// Press Start
+0 0 0 0 0 1
+// Focus Pause
+1 1 1 1 1 1
+// No Input
+0 0 0 0 0 0
+// Focus Pause
+1 1 1 1 1 1
+// Press One Second
+0 0 0 1 0 0
+// Press One Second
+0 0 0 1 0 0
+// Press One Second
+0 0 0 1 0 0
+// Press Start
+0 0 0 0 0 1
+// No Input
+0 0 0 0 0 0
+// No Input
+0 0 0 0 0 0
+// Press Pause
+0 0 0 0 1 0
+// No Input
+0 0 0 0 0 0
+// No Input
+0 0 0 0 0 0

@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Apr 20 19:18:09 2022
+# Process ID: 10824
+# Current directory: C:/Users/KevinWu/Desktop/pynq_project/pynq_base1/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12948 C:\Users\KevinWu\Desktop\pynq_project\pynq_base1\project_1\project_1.xpr
+# Log file: C:/Users/KevinWu/Desktop/pynq_project/pynq_base1/project_1/vivado.log
+# Journal file: C:/Users/KevinWu/Desktop/pynq_project/pynq_base1/project_1\vivado.jou
+# Running On: DESKTOP-QO1RQK3, OS: Windows, CPU Frequency: 2400 MHz, CPU Physical cores: 4, Host memory: 16974 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/KevinWu/Desktop/pynq_project/pynq_base1/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/KevinWu/Desktop/pynq_project/pynq_base1/project_1/project_1.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+reset_run synth_1
+update_module_reference design_1_top_0_0
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/KevinWu/Desktop/pynq_project/pynq_base1/project_1/project_1.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]

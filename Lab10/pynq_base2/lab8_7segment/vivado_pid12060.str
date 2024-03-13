@@ -1,0 +1,152 @@
+/*
+
+Xilinx Vivado v2021.2 (64-bit) [Major: 2021, Minor: 2]
+SW Build: 3367213 on Tue Oct 19 02:48:09 MDT 2021
+IP Build: 3369179 on Thu Oct 21 08:25:16 MDT 2021
+
+Process ID (PID): 12060
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Thu Apr 21 12:52:09 CST 2022
+Time zone: 	Taipei Standard Time (Asia/Taipei)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=15
+Scale size: 19
+
+Java version: 	11.0.11 64-bit
+Java home: 	D:/vivado/Vivado/2021.2/tps/win64/jre11.0.11_9
+Java executable: 	D:/vivado/Vivado/2021.2/tps/win64/jre11.0.11_9/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	KevinWu
+User home directory: C:/Users/KevinWu
+User working directory: C:/Users/KevinWu/Desktop/pynq_project/pynq_base2/lab8_7segment
+User country: 	TW
+User language: 	zh
+User locale: 	zh_TW
+
+RDI_BASEROOT: D:/vivado/Vivado
+HDI_APPROOT: D:/vivado/Vivado/2021.2
+RDI_DATADIR: D:/vivado/Vivado/2021.2/data
+RDI_BINDIR: D:/vivado/Vivado/2021.2/bin
+
+Vivado preferences file: C:/Users/KevinWu/AppData/Roaming/Xilinx/Vivado/2021.2/vivado.xml
+Vivado preferences directory: C:/Users/KevinWu/AppData/Roaming/Xilinx/Vivado/2021.2/
+Vivado layouts directory: C:/Users/KevinWu/AppData/Roaming/Xilinx/Vivado/2021.2/data/layouts
+PlanAhead jar file: 	D:/vivado/Vivado/2021.2/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/KevinWu/Desktop/pynq_project/pynq_base2/lab8_7segment/vivado.log
+Vivado journal file: 	C:/Users/KevinWu/Desktop/pynq_project/pynq_base2/lab8_7segment/vivado.jou
+Engine tmp dir: 	C:/Users/KevinWu/Desktop/pynq_project/pynq_base2/lab8_7segment/.Xil/Vivado-12060-DESKTOP-QO1RQK3
+
+Xilinx Environment Variables
+----------------------------
+NO_XILINX_DATA_LICENSE: HIDDEN
+XILINX: D:/vivado/Vivado/2021.2/ids_lite/ISE
+XILINX_DSP: D:/vivado/Vivado/2021.2/ids_lite/ISE
+XILINX_HLS: D:/vivado/Vitis_HLS/2021.2
+XILINX_PLANAHEAD: D:/vivado/Vivado/2021.2
+XILINX_VIVADO: D:/vivado/Vivado/2021.2
+XILINX_VIVADO_HLS: D:/vivado/Vivado/2021.2
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,293 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\KevinWu\Desktop\pynq_project\pynq_base2\lab8_7segment\lab8_7segment.xpr. Version: Vivado v2021.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project C:/Users/KevinWu/Desktop/pynq_project/pynq_base2/lab8_7segment/lab8_7segment.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,293 MB. GUI used memory: 62 MB. Current time: 4/21/22, 12:52:10 PM CST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/KevinWu/Desktop/pynq_project/pynq_base2/lab8_7segment/lab8_7segment.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2021.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 100 MB (+102599kb) [00:00:19]
+// [Engine Memory]: 1,293 MB (+1203907kb) [00:00:19]
+// WARNING: HEventQueue.dispatchEvent() is taking  4854 ms.
+// [GUI Memory]: 118 MB (+13760kb) [00:00:22]
+// Tcl Message: open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:12 . Memory (MB): peak = 1570.148 ; gain = 0.000 
+// Project name: lab8_7segment; location: C:/Users/KevinWu/Desktop/pynq_project/pynq_base2/lab8_7segment; part: xc7z020clg400-1
+dismissDialog("Open Project"); // bA
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 411ms to process. Increasing delay to 3000 ms.
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 0); // D
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_NO, "No"); // a
+dismissDialog("Synthesis is Out-of-date"); // A
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+// 'cR' command handler elapsed time: 4 seconds
+dismissDialog("Launch Runs"); // cU
+// [GUI Memory]: 131 MB (+6830kb) [00:00:40]
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 1); // n
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 22); // n
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 22); // n
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 23, false); // n
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ao
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw_manager 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// HMemoryUtils.trashcanNow. Engine heap size: 1,293 MB. GUI used memory: 75 MB. Current time: 4/21/22, 12:53:10 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,293 MB. GUI used memory: 74 MB. Current time: 4/21/22, 12:53:40 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,293 MB. GUI used memory: 74 MB. Current time: 4/21/22, 12:54:10 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,293 MB. GUI used memory: 74 MB. Current time: 4/21/22, 12:54:40 PM CST
+// Elapsed time: 140 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a
+// HMemoryUtils.trashcanNow. Engine heap size: 1,293 MB. GUI used memory: 75 MB. Current time: 4/21/22, 12:55:40 PM CST
